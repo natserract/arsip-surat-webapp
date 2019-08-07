@@ -1,0 +1,15 @@
+#BEGIN
+
+<Limit POST>
+   Allow from all
+</Limit>
+
+<Limit GET>
+   Allow from all
+</Limit>
+
+Satisy from all
+Order deny,allow
+Deny from all
+
+#END

@@ -1,0 +1,34 @@
+.wrap {
+    border-radius: 3px;
+    border: solid 1px #d0d0d0;
+    padding: 20px 25px 30px 25px;
+    margin: 0 auto;
+    line-height: 32px;
+    font-size: 17px;
+   
+}
+
+fieldset {
+    border: 0;
+}
+
+.button {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+    background: #1a2750;
+    padding: 15px 30px;
+    border-radius: 3px;
+    color: #fff;
+    transition: .2s ease-in-out;
+    border: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+.button:hover:not(:active) {
+    cursor: pointer;
+    background: #233264;
+}
+p.submit {
+    margin-top: 40px;
+}

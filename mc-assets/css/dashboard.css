@@ -1,0 +1,131 @@
+
+.box a {
+    color: inherit;
+    text-decoration: none;
+}
+.panel {
+    overflow: auto;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    line-height: 2.1em;
+    padding: 23px 30px 41px;
+    margin-bottom: 17px;
+    overflow: hidden;
+  
+}
+.box .panel {
+    cursor: pointer;
+    transition: all 0.29s ease-in-out 0s;
+    -webkit-transition: all 0.29s ease-in-out 0s;
+    -moz-transition: all 0.29s ease-in-out 0s;
+    overflow: hidden;
+}
+.box .panel:hover:not(:active) {
+    cursor: pointer;
+    background: rgb(252, 252, 252);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+}
+.panel-left {
+    float: left;
+}
+.panel-right {
+    float: right;
+}
+.welcome-panel-content {
+    max-width: 1500px;
+}
+.welcome-panel h2 {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.welcome-panel-column-container {
+    margin: 15px 0;
+}
+.welcome-panel .welcome-panel-column {
+    min-width: 200px;
+    float: left;
+    width: 32%;
+}
+.welcome-panel .welcome-panel-column:first-child {
+    width: 36%;
+} 
+.welcome-panel-column:first-child h3 {
+    padding-bottom: 15px;
+}
+.welcome-panel-column > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+/* .welcome-panel-column a {
+    text-decoration: none;
+    color: #0073aa;
+    transition: all 0.10s ease-in-out 0s;
+    -webkit-transition: all 0.10s ease-in-out 0s;
+    -moz-transition: all 0.10s ease-in-out 0s;
+}
+.welcome-panel-column a:hover{
+    color: #0494d6;
+} */
+.welcome-panel-column a span.fa {
+    color: #707070;
+    font-size: 22px;
+    display: inline-block;
+    padding: 4px 10px 0 0;
+    position: relative;
+    vertical-align: top;
+   
+}
+.welcome-panel a.button-to {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+    background: #1a2750;
+    padding: 15px 30px;
+    border-radius: 3px;
+    color: #fff;
+    transition: .2s ease-in-out;
+}
+.welcome-panel a.button-to:hover:not(:active) {
+    background: #233264;
+}
+.left-box {
+    width: 49.5%;
+    float: left;
+}
+
+.mail-box-right , .user-box{
+    width: 43.5%;
+}
+.widget-item-left {
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    width: 70px;
+    padding: 20px 20px 20px 0;
+    text-align: center;
+    float: left;
+    margin-right: 20px;
+    height: 70px;
+}
+.widget-item-left .fa {
+    font-size: 60px;
+}
+.widget-data {
+    padding-top: 10px;
+}
+.widget-data .widget-int{
+    font-size: 50px;
+    font-weight: 400;    
+}
+.widget-data .widget-title {
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 240;
+}
+.widget-data .widget-subtitle {
+    font-size: 15px;
+    opacity: .9;
+    margin-top: -5px;
+}
+

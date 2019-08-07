@@ -1,0 +1,24 @@
+
+.security-content {
+    margin: 13em 0 0 0;
+    text-align: center;
+}
+.security-content h1 {
+    font-size: 35px;    
+   
+}
+.security-content h1:first-child {
+    padding-bottom: .2em;
+}
+.security-content h1:last-child::after{
+    content: '';
+    display: block;
+    background: #484848;
+    width: 30px;
+    height: 2px;
+    text-align: center;
+    margin: 20px 0;
+}
+footer {
+    opacity: 0;
+}
